@@ -8,6 +8,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "dostaffkin": {
+      "i18n": {
+        "sourceLocale": "ru",
+        "locales": {
+          "en": "src/locale/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -19,7 +25,11 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
+            "localize": ["en"],
             "outputPath": {"base": "docs","browser": ""},
+            "polyfills": [
+              "src/polyfills.ts"
+            ],
             "baseHref": "/dostaffkin/",
             "assets": [
               {

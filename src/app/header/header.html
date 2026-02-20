@@ -4,7 +4,11 @@
         <div class="header-title">Delivery</div>
     </a>
     <nav class="header-menu">
-        <a class="header-link" routerLink="/order">Оформить <span>доставку</span></a>
-        <a class="header-link" routerLink="/track">Отследить <span>посылку</span></a>
+        <a class="header-link" routerLink="/order" i18n>Оформить <span>доставку</span></a>
+        <a class="header-link" routerLink="/track" i18n>Отследить <span>посылку</span></a>
     </nav>
+
+    <li *ngFor="let locale of localesList" class="header-locale">
+      <a class="header-locale-link" [routerLink]="['/', locale.code]">{{ locale.label }}</a>
+    </li>
 </header>

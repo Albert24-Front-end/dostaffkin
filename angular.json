@@ -25,7 +25,7 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "localize": ["en"],
+            "localize": true,
             "outputPath": {"base": "docs","browser": ""},
             "polyfills": [
               "src/polyfills.ts"

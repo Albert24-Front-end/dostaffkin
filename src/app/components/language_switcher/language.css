@@ -1,0 +1,16 @@
+.lang-container {
+    display: inline-block;
+    margin: 10px;
+}
+.lang-select {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    font-family: inherit;
+    outline: none;
+}
+.lang-select:focus {
+    border-color: #007bff;
+}

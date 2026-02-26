@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    // Проверяем язык браузера
+    var userLang = navigator.language || navigator.userLanguage; 
+    // Если русский — шлем в /ru, иначе (включая английский) — в /en
+    if (userLang.startsWith('ru')) {
+      window.location.href = './ru/';
+    } else {
+      window.location.href = './en/';
+    }
+  </script>
+</head>
+<body>
+  Redirecting to localized version...
+</body>
+</html>

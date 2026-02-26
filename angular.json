@@ -57,6 +57,9 @@
         "serve": {
           "builder": "@angular/build:dev-server",
           "configurations": {
+            "ru": {
+              "browserTarget": "dostaffkin:build:production:ru"
+            },
             "production": {
               "buildTarget": "dostaffkin:build:production"
             },

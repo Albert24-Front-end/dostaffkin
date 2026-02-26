@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "extract-i18n": "ng extract-i18n --output-path src/locale"
+    "extract-i18n": "ng extract-i18n --output-path src/locale",
+    "postbuild": "copy docs/ru/index.html docs/404.html && cp src/index.root.html docs/index.html"
   },
   "prettier": {
     "printWidth": 100,

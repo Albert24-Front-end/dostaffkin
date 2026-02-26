@@ -6,9 +6,11 @@
     <nav class="header-menu">
         <a class="header-link" routerLink="/order" i18n>Оформить <span>доставку</span></a>
         <a class="header-link" routerLink="/track" i18n>Отследить <span>посылку</span></a>
+        <app-language-switcher></app-language-switcher>
     </nav>
 
-    <li *ngFor="let locale of localesList" class="header-locale">
+    <!-- <li *ngFor="let locale of localesList" class="header-locale">
       <a class="header-locale-link" [routerLink]="['/', locale.code]">{{ locale.label }}</a>
-    </li>
+    </li> -->
+    
 </header>

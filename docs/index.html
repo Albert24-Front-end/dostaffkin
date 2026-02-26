@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // 1. Пытаемся взять сохраненный язык из localStorage
+      // 2. Если нет — берем язык браузера
+      // 3. Если ничего не подошло — ставим 'ru' по умолчанию
+      var lang = localStorage.getItem('userLanguage') || 
+                 navigator.language || 
+                 navigator.userLanguage || 
+                 'ru';
+
+      if (lang.startsWith('en')) {
+        window.location.replace("./en/");
+      } else {
+        window.location.replace("./ru/");
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <a href="./ru/">Русская версия</a><br>
+      <a href="./en/">English version</a>
+    </noscript>
+  </body>
+</html>

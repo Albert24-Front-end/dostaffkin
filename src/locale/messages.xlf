@@ -20,7 +20,7 @@
         <source>Отследить <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>посылку<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.html</context>
-          <context context-type="linenumber">8,10</context>
+          <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6002073846171707373" datatype="html">
@@ -78,6 +78,10 @@
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">22,23</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7372755454773589030" datatype="html">
         <source>Delivery</source>
@@ -87,10 +91,389 @@
         </context-group>
       </trans-unit>
       <trans-unit id="main-image-alt" datatype="html">
-        <source>Main image</source>
+        <source>Главное изображение - фоновая карта</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2577314368192767059" datatype="html">
+        <source>17×12×9 см,&lt;br&gt;до 0.5 кг</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68869397826950688" datatype="html">
+        <source>23×19×10 см,&lt;br&gt;до 2 кг</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7724774775278591802" datatype="html">
+        <source>33×25×15 см,&lt;br&gt;до 5 кг</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5698120128334149746" datatype="html">
+        <source>31×25×38 см,&lt;br&gt;до 12 кг</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1972340325902132594" datatype="html">
+        <source>60×35×30 см,&lt;br&gt;до 18 кг</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5284515305267440617" datatype="html">
+        <source>120×120×80 см,&lt;br&gt;до 200 кг</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70510625847491776" datatype="html">
+        <source>Обычная</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1019580406847424914" datatype="html">
+        <source>Приоритетная</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6594400260074272602" datatype="html">
+        <source>Оформление доставки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6480807460726775150" datatype="html">
+        <source>Выберите параметры для расчета отправления</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="491583667618215511" datatype="html">
+        <source>Маршрут</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="551588538666594568" datatype="html">
+        <source>Откуда: начните вводить адрес</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7115879188450950501" datatype="html">
+        <source>Заполните поле Откуда</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3730426503144381968" datatype="html">
+        <source>Куда: начните вводить адрес</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1310662965022821110" datatype="html">
+        <source>Заполните поле Куда</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2303920591176812179" datatype="html">
+        <source>Размер посылки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ size.value | uppercase }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3594221223801606937" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ size.rate }}"/> ₽/км</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4614462483202556504" datatype="html">
+        <source>Скорость доставки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6319839257865800317" datatype="html">
+        <source>Скорость</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1955718268098822440" datatype="html">
+        <source>Рассчитать</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3271033073989288522" datatype="html">
+        <source>Расчеты вашего заказа</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1234240092279375799" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Расстояние<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;distanceValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().distance : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">75,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2409293404075008575" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Доставим через<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;durationValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().duration : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1468927311009245212" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Тариф<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;rateValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().rate : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">77,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7759982906236373159" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Скорость доставки<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;speedValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().speed : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5669320719855617308" datatype="html">
+        <source>Итого</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6204065670847243062" datatype="html">
+        <source>Контакты</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">90,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4473677857087950682" datatype="html">
+        <source>Ваше имя</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2983928632469814991" datatype="html">
+        <source>Ваш телефон</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7987049213205932209" datatype="html">
+        <source>Заполните имя</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4203012751272500381" datatype="html">
+        <source>Заполните телефон</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">105,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="88220540467631414" datatype="html">
+        <source>Дополнительная информация</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">111,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1534549884585385492" datatype="html">
+        <source>Детали доставки и комментарии</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5867452585680176606" datatype="html">
+        <source>Отправить заявку </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6537368775846414054" datatype="html">
+        <source>Заявка отправлена!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">123,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4742041772701002606" datatype="html">
+        <source>Номер отправления – <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span id=&quot;orderId&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ orderId() }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">124,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6146853329897452264" datatype="html">
+        <source>Мы скоро свяжемся с вами</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.html</context>
+          <context context-type="linenumber">125,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3263339578899069480" datatype="html">
+        <source><x id="PH" equiv-text="km.toFixed(1)"/> км</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.ts</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4680714743020626956" datatype="html">
+        <source><x id="PH" equiv-text="duration"/> дн.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.ts</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3928594254093408004" datatype="html">
+        <source><x id="PH" equiv-text="sizeConfig.rate"/> ₽/км</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.ts</context>
+          <context context-type="linenumber">138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7521619873340988006" datatype="html">
+        <source>Не удалось построить маршрут. Проверьте адреса и выбранные параметры.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.ts</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7085936743791506717" datatype="html">
+        <source>Сначала рассчитайте стоимость, чтобы оформить заявку</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.ts</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3043998260779357484" datatype="html">
+        <source>Введите имя и корректный телефон</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.ts</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8604526372176902059" datatype="html">
+        <source>Заявка успешно оформлена!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/order/order.ts</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trackNumberPlaceholder" datatype="html">
+        <source>Введите номер посылки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8228969789040069142" datatype="html">
+        <source>Отследить</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6980936577690358097" datatype="html">
+        <source> Откуда: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.from }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3238611522226082066" datatype="html">
+        <source> Куда: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.to }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6327862620148052786" datatype="html">
+        <source>Статус данной посылки:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1106698993081294050" datatype="html">
+        <source>Заполните номер отправления</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5355141185274784149" datatype="html">
+        <source>Введите корректный номер отправления</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7584631622732746405" datatype="html">
+        <source>Информация о заявке получена!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/track/track.ts</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
     </body>

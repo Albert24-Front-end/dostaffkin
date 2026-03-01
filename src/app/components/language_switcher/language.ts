@@ -1,4 +1,4 @@
-import { Component, Inject, LOCALE_ID } from '@angular/core';
+import { Component, Inject, LOCALE_ID, HostListener, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,26 +9,62 @@ import { CommonModule } from '@angular/common';
   styleUrl: './language.css',
 })
 export class LanguageSwitcherComponent {
+  isOpen = false;
+  
+  // Список языков с флагами (можно использовать emoji или пути к файлам)
+  languages = [
+    { 
+      code: 'uz', 
+      label: "O'zbekcha", 
+      // flag: 'https://flagcdn.com/w40/uz.png' 
+      flag: 'images/flags/TwemojiFlagUzbekistan.svg' 
+    },
+    { 
+      code: 'ru', 
+      label: 'Русский', 
+      // flag: 'https://flagcdn.com/w40/ru.png' 
+      flag: 'images/flags/TwemojiFlagRussia.svg' 
+    },
+    { 
+      code: 'en', 
+      label: 'English', 
+      // flag: 'https://flagcdn.com/w40/gb.png' 
+      flag: 'images/flags/TwemojiFlagUnitedStates.svg' 
+    },
+  ];
+
   // Получаем текущий язык приложения (ru или en)
-  constructor(@Inject(LOCALE_ID) public currentLocale: string) {
-    // LOCALE_ID может вернуть 'ru-RU', приводим к краткому виду если нужно
+  constructor(
+    @Inject(LOCALE_ID) public currentLocale: string,
+    private eRef: ElementRef
+  ) {
     this.currentLocale = this.currentLocale.substring(0, 2);
   }
 
-  onLanguageChange(event: Event) {
-    const target = event.target as HTMLSelectElement;
-    const nextLang = target.value;
+  // Закрытие при клике вне компонента
+  @HostListener('document:click', ['$event'])
+  clickout(event: any) {
+    if (!this.eRef.nativeElement.contains(event.target)) {
+      this.isOpen = false;
+    }
+  }
 
-    if (this.currentLocale === nextLang) return;
+  toggleDropdown() {
+    this.isOpen = !this.isOpen;
+  }
 
-    // Сохраняем выбор в localStorage для вашего корневого редиректа
-    localStorage.setItem('userLanguage', nextLang);
+  getActiveLang() {
+    return this.languages.find(l => l.code === this.currentLocale) || this.languages[0];
+  }
 
-    const currentUrl = window.location.href;
+  switchLanguage(langCode: string) {
+    if (this.currentLocale === langCode) return;
+
+    localStorage.setItem('userLanguage', langCode);
     
-    // Заменяем сегмент пути /ru/ на /en/ или наоборот
-    // Эта регулярка корректно обработает https://.../dostaffkin/ru/page
-    const newUrl = currentUrl.replace(/\/(ru|en)(\/|$)/, `/${nextLang}/`);
+    const currentUrl = window.location.href;
+    // Регулярка для GitHub Pages с учетом папок /ru/ и /en/
+    const newUrl = currentUrl.replace(/\/(ru|en)(\/|$)/, `/${langCode}/`);
     
     window.location.href = newUrl;
   }

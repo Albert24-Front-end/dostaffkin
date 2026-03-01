@@ -13,10 +13,5 @@ export class App {
   constructor(private titleService: Title) {
     this.titleService.setTitle($localize`${this.title}`);
   };
-
-  localesList: object = [
-    { code: 'en', label: 'English' },
-    { code: 'ru', label: 'Русский' }
-  ]
 };
 

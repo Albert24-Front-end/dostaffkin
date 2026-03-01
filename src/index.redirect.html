@@ -5,11 +5,13 @@
     // Проверяем язык браузера
     var userLang = navigator.language || navigator.userLanguage; 
     // Если русский — шлем в /ru, иначе (включая английский) — в /en
-    if (userLang.startsWith('ru')) {
-      window.location.href = './ru/';
-    } else {
-      window.location.href = './en/';
-    }
+    if (lang.startsWith('en')) {
+        window.location.replace("./en/");
+      } else if (lang.startsWith('uz')) {
+        window.location.replace("./uz/");
+      } else {
+        window.location.replace("./ru/")
+      }
   </script>
 </head>
 <body>

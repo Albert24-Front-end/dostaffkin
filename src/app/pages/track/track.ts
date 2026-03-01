@@ -22,14 +22,14 @@ export class Track {
     const rawValue = this.trackNumber.trim();
 
     if (!rawValue) {
-      this.toastr.error('Заполните номер отправления');
+      this.toastr.error($localize`Заполните номер отправления`);
       return;
     }
 
     this.trackResult.set(null);
     const numericValue = Number(rawValue);
     if (Number.isNaN(numericValue) || numericValue <= 0) {
-      this.toastr.error('Введите корректный номер отправления');
+      this.toastr.error($localize`Введите корректный номер отправления`);
       return;
     }
 
@@ -39,7 +39,7 @@ export class Track {
         return;
       }
 
-      this.toastr.success('Информация о заявке получена!')
+      this.toastr.success($localize`Информация о заявке получена!`)
       this.trackResult.set(response);
     });
   }

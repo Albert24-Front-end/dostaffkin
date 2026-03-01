@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="/images/fast-delivery.png">
     <title>Redirecting...</title>
     <script>
       // 1. Пытаемся взять сохраненный язык из localStorage
@@ -14,13 +15,16 @@
 
       if (lang.startsWith('en')) {
         window.location.replace("./en/");
+      } else if (lang.startsWith('uz')) {
+        window.location.replace("./uz/");
       } else {
-        window.location.replace("./ru/");
+        window.location.replace("./ru/")
       }
     </script>
   </head>
   <body>
     <noscript>
+      <a href="./uz/">O'zbek versiya</a><br>
       <a href="./ru/">Русская версия</a><br>
       <a href="./en/">English version</a>
     </noscript>

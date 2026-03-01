@@ -2,12 +2,12 @@
     <app-header />
     <main class="track-content">
         <section class="track-card track-search">
-            <div class="track-title">Отследить посылку</div>
+            <div class="track-title" i18n>Отследить посылку</div>
             <div class="track-action">
                 <div class="main-field track-field">
-                    <input id="trackNumber" placeholder="Введите номер посылки" [(ngModel)]="trackNumber" autocomplete="off"/>
+                    <input id="trackNumber" placeholder="Введите номер посылки" [(ngModel)]="trackNumber" autocomplete="off" i18n-placeholder="@@trackNumberPlaceholder"/>
                 </div>
-                <button id="trackButton" class="button track-button" type="button" (click)="trackShipment()">Отследить</button>
+                <button id="trackButton" class="button track-button" type="button" (click)="trackShipment()" i18n>Отследить</button>
             </div>
         </section>
 
@@ -25,7 +25,7 @@
                                     d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/>
                             </svg>
                         </div>
-                        <div class="track-route-address" id="trackFromValue">
+                        <div class="track-route-address" id="trackFromValue" i18n>
                             Откуда: {{ trackResult()?.route.from }}
                         </div>
                     </div>
@@ -46,14 +46,14 @@
                                     d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/>
                             </svg>
                         </div>
-                        <div class="track-route-address" id="trackToValue">
+                        <div class="track-route-address" id="trackToValue" i18n>
                             Куда: {{ trackResult()?.route.to }}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="track-info">
-                <div class="track-status-title">Статус данной посылки:</div>
+                <div class="track-status-title" i18n>Статус данной посылки:</div>
                 <div class="track-status-list" id="trackStatusList">
                     @for (status of trackResult()?.statuses; track status.type + status.date) {
                         <div class="track-status" [class]="status.type">

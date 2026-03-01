@@ -1,6 +1,15 @@
-<div class="lang-container">
-    <select (change)="onLanguageChange($event)" [value]="currentLocale" class="lang-select">
-    <option value="ru">Русский (RU)</option>
-    <option value="en">English (EN)</option>
-    </select>
+<div class="lang-dropdown">
+    <button class="dropbtn" (click)="toggleDropdown()">
+        <img [src]="getActiveLang().flag" class="flag-icon" alt="flag">
+        {{ getActiveLang().label }}
+        <span class="arrow" [class.open]="isOpen">▼</span>
+    </button>
+
+    <div class="dropdown-content" [class.show]="isOpen">
+        <div *ngFor="let lang of languages" (click)="switchLanguage(lang.code)" class="lang-item"
+            [class.active]="lang.code === currentLocale">
+            <img [src]="lang.flag" class="flag-icon" alt="flag">
+            {{ lang.label }}
+        </div>
+    </div>
 </div>

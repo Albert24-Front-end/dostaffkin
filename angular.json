@@ -11,7 +11,8 @@
       "i18n": {
         "sourceLocale": "ru",
         "locales": {
-          "en": "src/locale/messages.en.xlf"
+          "en": "src/locale/messages.en.xlf",
+          "uz": "src/locale/messages.uz.xlf"
         }
       },
       "projectType": "application",
@@ -25,7 +26,7 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "localize": true,
+            "localize": false,
             "outputPath": {"base": "docs","browser": ""},
             "polyfills": [
               "src/polyfills.ts"
@@ -44,21 +45,31 @@
           },
           "configurations": {
             "production": {
+              "localize": true,
               "outputHashing": "all"
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
-            }
+            },
+            "en": { "localize": ["en"] },
+            "ru": { "localize": ["ru"] },
+            "uz": { "localize": ["uz"] }
           },
           "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular/build:dev-server",
           "configurations": {
+            "en": {
+              "buildTarget": "dostaffkin:build:development,en"
+            },
+            "uz": {
+              "buildTarget": "dostaffkin:build:development,uz"
+            },
             "ru": {
-              "browserTarget": "dostaffkin:build:production:ru"
+              "buildTarget": "dostaffkin:build:development:ru"
             },
             "production": {
               "buildTarget": "dostaffkin:build:production"

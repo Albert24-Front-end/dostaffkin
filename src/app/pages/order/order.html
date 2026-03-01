@@ -1,49 +1,48 @@
-
 <div id="map"></div>
 <app-header />
 
 <aside class="main" id="sidebar">
     <div class="main-header">
-        <div class="main-title">Оформление доставки</div>
-        <div class="main-text">Выберите параметры для расчета отправления</div>
+        <div class="main-title" i18n>Оформление доставки</div>
+        <div class="main-text" i18n>Выберите параметры для расчета отправления</div>
     </div>
     <div class="main-content">
         <div class="main-route" [formGroup]="routeForm">
-            <div class="main-block-title">Маршрут</div>
+            <div class="main-block-title" i18n>Маршрут</div>
             <div class="main-fields">
                 <div class="main-field" id="fromField">
                     <div class="main-pin"></div>
-                    <input id="from" placeholder="Откуда: начните вводить адрес" formControlName="from" autocomplete="off" [attr.disabled]="!!orderId()"/>
+                    <input id="from" i18n-placeholder placeholder="Откуда: начните вводить адрес" formControlName="from" autocomplete="off" [attr.disabled]="!!orderId()"/>
                     <div class="main-ac" id="fromAc" role="listbox" aria-label="Подсказки адресов"></div>
                 </div>
                 @if (this.routeForm.get('from')?.invalid && (this.routeForm.get('from')?.dirty || this.routeForm.get('from')?.touched)) {
-                    <label for="from" class="input-error">Заполните поле Откуда</label>
+                    <label for="from" class="input-error" i18n>Заполните поле Откуда</label>
                 }
 
                 <div class="main-field" id="toField">
                     <div class="main-pin"></div>
-                    <input id="to" placeholder="Куда: начните вводить адрес" formControlName="to" autocomplete="off" [attr.disabled]="!!orderId()"/>
+                    <input id="to" i18n-placeholder placeholder="Куда: начните вводить адрес" formControlName="to" autocomplete="off" [attr.disabled]="!!orderId()"/>
                     <div class="main-ac" id="toAc" role="listbox" aria-label="Подсказки адресов"></div>
                 </div>
                 @if (this.routeForm.get('to')?.invalid && (this.routeForm.get('to')?.dirty || this.routeForm.get('to')?.touched)) {
-                    <label for="from" class="input-error">Заполните поле Куда</label>
+                    <label for="from" i18n class="input-error">Заполните поле Куда</label>
                 }
             </div>
         </div>
 
         <div class="main-package" [style.display]="orderId() ? 'none' : null">
-            <div class="main-block-title">Размер посылки</div>
+            <div class="main-block-title" i18n>Размер посылки</div>
 
             <div class="main-sizes">
                 @for (size of sizes; track size.value) {
                     <div class="main-size-card" [class.is-active]="routeForm.value.size === size.value"
                         (click)="selectSize(size.value)">
                         <div class="main-size-top">
-                            <div class="main-size-label">{{ size.value | uppercase }}</div>
-                            <div class="main-size-rate">{{ size.rate }} ₽/км</div>
+                            <div class="main-size-label" i18n>{{ size.value | uppercase }}</div>
+                            <div class="main-size-rate" i18n>{{ size.rate }} ₽/км</div>
                         </div>
                         <div class="main-size-media" [class]="size.value === 'max' ? 'main-size-media-palleta' : ''">
-                            <img [src]="'images/sizes/' + size.value + '.png'" [alt]="size.value"/>
+                            <img [src]="'images/sizes/' + size.value + '.png'" i18-alt [alt]="size.value"/>
                         </div>
                         <div class="main-size-description" [innerHTML]="size.description"></div>
                     </div>
@@ -52,78 +51,78 @@
         </div>
 
         <div class="main-speed" [style.display]="orderId() ? 'none' : null">
-            <div class="main-block-title">Скорость доставки</div>
+            <div class="main-block-title" i18n>Скорость доставки</div>
 
             <div class="main-speeds">
                 @for (speed of speeds; track speed.value) {
                     <div class="main-speed-card" [class.is-active]="routeForm.value.speed === speed.value"
                         (click)="selectSpeed(speed.value)">
-                        <img class="main-speed-media" src="images/icons/{{speed.value}}.svg" alt="Speed"/>
-                        <div class="main-speed-description">{{ speed.label }}</div>
+                        <img class="main-speed-media" src="images/icons/{{speed.value}}.svg" i18n-alt alt="Скорость"/>
+                        <div class="main-speed-description" i18n>{{ speed.label }}</div>
                     </div>
                 }
             </div>
         </div>
 
         <div class="main-calculate-block" [style.display]="orderId() ? 'none' : null">
-            <button id="calc" class="button calculate-button" type="button" [disabled]="routeForm.invalid" (click)="calculate()">Рассчитать</button>
+            <button id="calc" class="button calculate-button" type="button" [disabled]="routeForm.invalid" (click)="calculate()" i18n>Рассчитать</button>
         </div>
 
 
         <div class="main-result" id="result">
-            <div class="main-result-title">Расчеты вашего заказа</div>
+            <div class="main-result-title" i18n>Расчеты вашего заказа</div>
             <div class="main-result-lines">
-                <div class="main-result-line"><span>Расстояние</span><span id="distanceValue">{{ calculationResult() ? calculationResult().distance + ' км' : '—' }}</span></div>
-                <div class="main-result-line"><span>Доставим через</span><span id="durationValue">{{ calculationResult() ? calculationResult().duration + ' дн.' : '—' }}</span></div>
-                <div class="main-result-line"><span>Скорость доставки</span><span id="speedValue">{{ calculationResult() ? calculationResult().rate + ' ₽/км' : '—' }}</span></div>
-                <div class="main-result-line"><span>Тариф</span><span id="rateValue">—</span></div>
+                <div class="main-result-line" i18n><span>Расстояние</span><span id="distanceValue">{{ calculationResult() ? calculationResult().distance : '—' }}</span></div>
+                <div class="main-result-line" i18n><span>Доставим через</span><span id="durationValue">{{ calculationResult() ? calculationResult().duration : '—' }}</span></div>
+                <div class="main-result-line" i18n><span>Тариф</span><span id="rateValue">{{ calculationResult() ? calculationResult().rate : '—' }}</span></div>
+                <div class="main-result-line" i18n><span>Скорость доставки</span><span id="speedValue">{{ calculationResult() ? calculationResult().speed : '—' }}</span></div>
             </div>
             <div class="main-price">
-                <div class="main-price-label">Итого</div>
-                <div class="main-price-value" id="totalValue">{{ calculationResult() ? calculationResult().total : '—' }}</div>
+                <div class="main-price-label" i18n>Итого</div>
+                <div class="main-price-value" id="totalValue">{{ calculationResult() ? calculationResult().total + ' ₽' : '—' }}</div>
             </div>
         </div>
 
         <div class="main-order-box">
             <div class="main-order-form" id="orderForm" [formGroup]="orderForm" [style.display]="orderId() ? 'none' : null">
-                <div class="main-order-title">Оформление доставки</div>
+                <div class="main-order-title" i18n>Оформление доставки</div>
                 <div class="main-block-info-row">
-                    <div class="main-block-title">Контакты</div>
+                    <div class="main-block-title" i18n>Контакты</div>
                     <div class="order-fields">
                         <div class="main-field">
-                            <input id="customerName" placeholder="Ваше имя" formControlName="name" autocomplete="off"/>
+                            <input id="customerName" i18n-placeholder placeholder="Ваше имя" formControlName="name" autocomplete="off"/>
                         </div>
                         <div class="main-field">
-                            <input id="customerPhone" placeholder="Ваш телефон" formControlName="phone" autocomplete="off" inputmode="tel"/>
+                            <input id="customerPhone" i18n-placeholder placeholder="Ваш телефон" formControlName="phone" autocomplete="off" inputmode="tel"/>
                         </div>
                         <div>
                             @if (this.orderForm.get('name')?.invalid && (this.orderForm.get('name')?.dirty || this.orderForm.get('name')?.touched)) {
-                                <label for="customerName" class="input-error">Заполните имя</label>
+                                <label for="customerName" class="input-error" i18n>Заполните имя</label>
                             }
                         </div>
                         <div>
                             @if (this.orderForm.get('phone')?.invalid && (this.orderForm.get('phone')?.dirty || this.orderForm.get('phone')?.touched)) {
-                                <label for="customerName" class="input-error">Заполните телефон</label>
+                                <label for="customerName" class="input-error" i18n>Заполните телефон</label>
                             }
                         </div>
                     </div>
                 </div>
                 <div class="main-block-info-row extra-info">
-                    <div class="main-block-title">Дополнительная информация</div>
+                    <div class="main-block-title" i18n>Дополнительная информация</div>
                     <div class="main-field textarea">
-                        <textarea id="comment" placeholder="Детали доставки и комментарии" formControlName="comment"></textarea>
+                        <textarea id="comment" i18n-placeholder placeholder="Детали доставки и комментарии" formControlName="comment"></textarea>
                     </div>
                 </div>
-                <button id="submit" class="button main-submit-request" type="button" [disabled]="!calculationResult() || orderForm.invalid" (click)="submitOrder()">Отправить
+                <button id="submit" class="button main-submit-request" type="button" [disabled]="!calculationResult() || orderForm.invalid" (click)="submitOrder()" i18n>Отправить
                     заявку
                 </button>
             </div>
 
             <div class="main-order-success" id="orderSuccess" [class.is-visible]="orderId()">
                 <div class="main-success-icon">✓</div>
-                <div class="main-success-title">Заявка отправлена!</div>
-                <div class="main-success-title">Номер отправления – <span id="orderId">{{ orderId() }}</span></div>
-                <div class="main-success-subtitle">Мы скоро свяжемся с вами</div>
+                <div class="main-success-title" i18n>Заявка отправлена!</div>
+                <div class="main-success-title" i18n>Номер отправления – <span id="orderId">{{ orderId() }}</span></div>
+                <div class="main-success-subtitle" i18n>Мы скоро свяжемся с вами</div>
             </div>
         </div>
     </div>

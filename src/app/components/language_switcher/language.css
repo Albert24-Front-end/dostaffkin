@@ -1,16 +1,79 @@
-.lang-container {
+.lang-dropdown {
+    position: relative;
     display: inline-block;
-    margin: 10px;
+    font-family: sans-serif;
 }
-.lang-select {
-    padding: 5px 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    background-color: white;
+
+.dropbtn {
+    background: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     cursor: pointer;
-    font-family: inherit;
-    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 120px;
+    transition: all 0.2s;
 }
-.lang-select:focus {
-    border-color: #007bff;
+
+.dropbtn:hover {
+    border-color: #bbb;
+    background: #f9f9f9;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.arrow {
+    font-size: 10px;
+    margin-left: auto;
+    transition: transform 0.2s;
+    color: #888;
+}
+
+.arrow.open {
+    transform: rotate(180deg);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    margin-top: 4px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.lang-item {
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.lang-item:hover {
+    background-color: #f1f1f1;
+}
+
+.lang-item.active {
+    background-color: #eef5ff;
+    color: #007bff;
+    font-weight: 500;
 }

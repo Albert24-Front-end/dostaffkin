@@ -133,9 +133,9 @@ export class Order {
                     from,
                     to,
                     size,
-                    distance: km.toFixed(1),
-                    duration,
-                    rate: sizeConfig.rate,
+                    distance: $localize`${km.toFixed(1)} км`,
+                    duration: $localize`${duration} дн.`,
+                    rate: $localize`${sizeConfig.rate} ₽/км`,
                     total,
                     speed
                 });
@@ -149,18 +149,18 @@ export class Order {
 
     private failedCalculation() {
         this.calculationResult.set(null);
-        this.toastr.error('Не удалось построить маршрут. Проверьте адреса и выбранные параметры.');
+        this.toastr.error($localize`Не удалось построить маршрут. Проверьте адреса и выбранные параметры.`);
     }
 
     public submitOrder() {
         const calculation = this.calculationResult();
         if (!calculation) {
-            this.toastr.error('Сначала рассчитайте стоимость, чтобы оформить заявку');
+            this.toastr.error($localize`Сначала рассчитайте стоимость, чтобы оформить заявку`);
             return;
         }
 
         if (this.orderForm.invalid) {
-            this.toastr.error('Введите имя и корректный телефон');
+            this.toastr.error($localize`Введите имя и корректный телефон`);
             return;
         }
 
@@ -181,7 +181,7 @@ export class Order {
                 return;
             }
 
-            this.toastr.success('Заявка успешно оформлена!')
+            this.toastr.success($localize`Заявка успешно оформлена!`);
             this.orderId.set(response.id);
         });
     }

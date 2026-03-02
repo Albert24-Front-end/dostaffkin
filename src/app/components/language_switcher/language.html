@@ -5,11 +5,24 @@
         <span class="arrow" [class.open]="isOpen">▼</span>
     </button>
 
-    <div class="dropdown-content" [class.show]="isOpen">
+    <!-- *ngFor требует импорта CommonModule в language.ts -->
+    <!-- <div class="dropdown-content" [class.show]="isOpen">
         <div *ngFor="let lang of languages" (click)="switchLanguage(lang.code)" class="lang-item"
             [class.active]="lang.code === currentLocale">
             <img [src]="lang.flag" class="flag-icon" alt="flag">
             {{ lang.label }}
         </div>
-    </div>
+    </div> -->
+    @if (isOpen) {
+        <div class="dropdown-content">
+            @for (lang of languages; track lang.code) {
+                <div class="lang-item" [class.active]="lang.code === currentLocale" (click)="switchLanguage(lang.code)">
+                    <img [src]="lang.flag" class="flag-icon" alt="flag">
+                    {{ lang.label }}
+                </div>
+            } @empty {
+                <div class="lang-item" i18n>Список языков пуст</div>
+            }
+        </div>
+    }
 </div>

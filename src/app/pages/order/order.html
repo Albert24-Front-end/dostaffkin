@@ -93,7 +93,12 @@
                             <input id="customerName" i18n-placeholder placeholder="Ваше имя" formControlName="name" autocomplete="off"/>
                         </div>
                         <div class="main-field">
-                            <input id="customerPhone" i18n-placeholder placeholder="Ваш телефон" formControlName="phone" autocomplete="off" inputmode="tel"/>
+                            <input id="customerPhone" i18n-placeholder placeholder="Ваш телефон" formControlName="phone" autocomplete="off" inputmode="tel" appOnlyNumbers/>
+                        </div>
+                        <div>
+                            @if(this.orderForm.get('phone')?.errors?.['pattern']) {
+                                <label for="customerPhone" class="input-error" i18n>Телефон должен состоять только из цифр</label>
+                            }
                         </div>
                         <div>
                             @if (this.orderForm.get('name')?.invalid && (this.orderForm.get('name')?.dirty || this.orderForm.get('name')?.touched)) {

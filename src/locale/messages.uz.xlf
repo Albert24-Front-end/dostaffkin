@@ -11,7 +11,7 @@
       </trans-unit>
       <trans-unit id="4819745301113909122" datatype="html">
         <source>Список языков пуст</source>
-        <target>The list of languages is empty</target>
+        <target>Tillar ro‘yxati bo‘sh</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/language_switcher/language.html</context>
           <context context-type="linenumber">24,25</context>
@@ -19,7 +19,7 @@
       </trans-unit>
       <trans-unit id="9140444775910261100" datatype="html">
         <source>Оформить <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>доставку<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Order <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>delivery<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target>Yetkazib berishni <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>rasmiylashtirish<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.html</context>
           <context context-type="linenumber">7,8</context>
@@ -27,7 +27,7 @@
       </trans-unit>
       <trans-unit id="3287700485399796711" datatype="html">
         <source>Отследить <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>посылку<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Track <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>package<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target>Jo‘natmani <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>kuzatish<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/header.html</context>
           <context context-type="linenumber">8,9</context>
@@ -35,7 +35,7 @@
       </trans-unit>
       <trans-unit id="6002073846171707373" datatype="html">
         <source>Отслеживание 24/7</source>
-        <target>Tracking 24/7</target>
+        <target>24/7 kuzatuv</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">10,11</context>
@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="6520589922970705007" datatype="html">
         <source>Лучшие маршруты</source>
-        <target>Best routes</target>
+        <target>Eng yaxshi marshrutlar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">11,12</context>
@@ -51,7 +51,7 @@
       </trans-unit>
       <trans-unit id="3868896440168887789" datatype="html">
         <source>Страхование посылок</source>
-        <target>Parcel insurance</target>
+        <target>Jo‘natmalarni sug‘urtalash</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">12,13</context>
@@ -59,7 +59,7 @@
       </trans-unit>
       <trans-unit id="9026512273065121957" datatype="html">
         <source>Доставка в срок</source>
-        <target>Delivery on time</target>
+        <target>Muddatida yetkazib berish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">13,14</context>
@@ -67,15 +67,15 @@
       </trans-unit>
       <trans-unit id="6519843642439269215" datatype="html">
         <source>Выгодные тарифы</source>
-        <target>Competitive rates</target>
+        <target>Foydali tariflar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">14,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8954775186839926516" datatype="html">
-        <source> Доставка посылок между странами и внутри стран. Безопасно. Быстро. В целости и сохранности! </source>
-        <target> Delivery of parcels between countries and within countries. Safe. Fast. In integrity and safety! </target>
+        <source>Доставка посылок между странами и внутри стран. Безопасно. Быстро. В целости и сохранности! </source>
+        <target>Mamlakatlararo va mamlakat ichida jo‘natmalarni yetkazib beramiz. Xavfsiz. Tez. Omonatiga xiyonat qilmaymiz! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">17,18</context>
@@ -83,7 +83,7 @@
       </trans-unit>
       <trans-unit id="7818837178876964562" datatype="html">
         <source>Заказать доставку</source>
-        <target>Order delivery</target>
+        <target>Yetkazib berishni buyurtma qilish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">21,22</context>
@@ -91,7 +91,7 @@
       </trans-unit>
       <trans-unit id="2822965535240462156" datatype="html">
         <source>Отследить посылку</source>
-        <target>Track the package</target>
+        <target>Jo‘natmani kuzatish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">22,23</context>
@@ -110,7 +110,7 @@
       </trans-unit>
       <trans-unit id="main-image-alt" datatype="html">
         <source>Главное изображение - фоновая карта</source>
-        <target>Main image</target>
+        <target>Asosiy rasm</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">29</context>
@@ -126,7 +126,7 @@
       </trans-unit>
       <trans-unit id="68869397826950688" datatype="html">
         <source>23×19×10 см,&lt;br&gt;до 2 кг</source>
-        <target>23×19×10 cm,&lt;br&gt;up to 2 kg</target>
+        <target>17×12×9 sm,&lt;br&gt;0,5 kg gacha</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
           <context context-type="linenumber">12</context>
@@ -134,7 +134,7 @@
       </trans-unit>
       <trans-unit id="7724774775278591802" datatype="html">
         <source>33×25×15 см,&lt;br&gt;до 5 кг</source>
-        <target>33×25×15 cm,&lt;br&gt;up to 5 kg</target>
+        <target>33×25×15 sm,&lt;br&gt;5 kg gacha</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
           <context context-type="linenumber">18</context>
@@ -142,7 +142,7 @@
       </trans-unit>
       <trans-unit id="5698120128334149746" datatype="html">
         <source>31×25×38 см,&lt;br&gt;до 12 кг</source>
-        <target>31×25×38 cm,&lt;br&gt;up to 12 kg</target>
+        <target>31×25×38 sm,&lt;br&gt;12 kg gacha</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
           <context context-type="linenumber">24</context>
@@ -150,7 +150,7 @@
       </trans-unit>
       <trans-unit id="1972340325902132594" datatype="html">
         <source>60×35×30 см,&lt;br&gt;до 18 кг</source>
-        <target>60×35×30 cm,&lt;br&gt;up to 18 kg</target>
+        <target>60×35×30 sm,&lt;br&gt;18 kg gacha</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
           <context context-type="linenumber">30</context>
@@ -158,7 +158,7 @@
       </trans-unit>
       <trans-unit id="5284515305267440617" datatype="html">
         <source>120×120×80 см,&lt;br&gt;до 200 кг</source>
-        <target>120×120×80 cm,&lt;br&gt;up to 200 kg</target>
+        <target>120×120×80 sm,&lt;br&gt;200 kg gacha</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
           <context context-type="linenumber">36</context>
@@ -166,7 +166,7 @@
       </trans-unit>
       <trans-unit id="70510625847491776" datatype="html">
         <source>Обычная</source>
-        <target>Regular</target>
+        <target>Oddiy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
           <context context-type="linenumber">42</context>
@@ -174,7 +174,7 @@
       </trans-unit>
       <trans-unit id="1019580406847424914" datatype="html">
         <source>Приоритетная</source>
-        <target>Priority</target>
+        <target>Ustuvor</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.config.ts</context>
           <context context-type="linenumber">43</context>
@@ -182,7 +182,7 @@
       </trans-unit>
       <trans-unit id="6594400260074272602" datatype="html">
         <source>Оформление доставки</source>
-        <target>Delivery registration</target>
+        <target>Yetkazib berishni rasmiylashtirish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">6,7</context>
@@ -194,7 +194,7 @@
       </trans-unit>
       <trans-unit id="6480807460726775150" datatype="html">
         <source>Выберите параметры для расчета отправления</source>
-        <target>Select parameters for order calculation</target>
+        <target>Jo‘natmani hisoblash uchun parametrlarni tanlang</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">7,8</context>
@@ -202,7 +202,7 @@
       </trans-unit>
       <trans-unit id="491583667618215511" datatype="html">
         <source>Маршрут</source>
-        <target>Route</target>
+        <target>Yo‘nalish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">11,12</context>
@@ -210,7 +210,7 @@
       </trans-unit>
       <trans-unit id="551588538666594568" datatype="html">
         <source>Откуда: начните вводить адрес</source>
-        <target>From: start typing the address</target>
+        <target>Qayerdan: manzil kiritishni boshlang</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">15</context>
@@ -218,7 +218,7 @@
       </trans-unit>
       <trans-unit id="7115879188450950501" datatype="html">
         <source>Заполните поле Откуда</source>
-        <target>Fill in the From field</target>
+        <target>Qayerdan maydonini to‘ldiring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">19,20</context>
@@ -226,7 +226,7 @@
       </trans-unit>
       <trans-unit id="3730426503144381968" datatype="html">
         <source>Куда: начните вводить адрес</source>
-        <target>To: start typing the address</target>
+        <target>Qayerga: manzil kiritishni boshlang</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">24</context>
@@ -234,7 +234,7 @@
       </trans-unit>
       <trans-unit id="1310662965022821110" datatype="html">
         <source>Заполните поле Куда</source>
-        <target>Fill in the To field</target>
+        <target>Qayerga maydonini to‘ldiring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">28,29</context>
@@ -242,7 +242,7 @@
       </trans-unit>
       <trans-unit id="2303920591176812179" datatype="html">
         <source>Размер посылки</source>
-        <target>Parcel size</target>
+        <target>Jo‘natma hajmi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">34,36</context>
@@ -269,7 +269,7 @@
       </trans-unit>
       <trans-unit id="4614462483202556504" datatype="html">
         <source>Скорость доставки</source>
-        <target>Delivery speed</target>
+        <target>Yetkazib berish tezligi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">54,56</context>
@@ -277,7 +277,7 @@
       </trans-unit>
       <trans-unit id="3128293408739574" datatype="html">
         <source>Скорость</source>
-        <target>Speed</target>
+        <target>Tezlik</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">61</context>
@@ -285,7 +285,7 @@
       </trans-unit>
       <trans-unit id="1955718268098822440" datatype="html">
         <source>Рассчитать</source>
-        <target>Calculate</target>
+        <target>Hisoblash</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">68,69</context>
@@ -293,7 +293,7 @@
       </trans-unit>
       <trans-unit id="3271033073989288522" datatype="html">
         <source>Расчеты вашего заказа</source>
-        <target>Order calculation results</target>
+        <target>Buyurtmangiz hisob-kitoblari</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">73,74</context>
@@ -301,7 +301,7 @@
       </trans-unit>
       <trans-unit id="1234240092279375799" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Расстояние<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;distanceValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().distance + &apos; км&apos; : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Distance<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;distanceValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().distance + &apos; km&apos; : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Masofa<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;distanceValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().distance + &apos; km&apos; : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">75,76</context>
@@ -309,7 +309,7 @@
       </trans-unit>
       <trans-unit id="2409293404075008575" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Доставим через<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;durationValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().duration + &apos; дн.&apos; : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Delivery time<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;durationValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().duration + &apos; days&apos; : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>...dan keyin yetkazib beramiz<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;durationValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().duration + &apos; days&apos; : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">76,77</context>
@@ -317,15 +317,15 @@
       </trans-unit>
       <trans-unit id="1468927311009245212" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Тариф<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;rateValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().rate : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Rate<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;rateValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().rate : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Tarif<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;rateValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().rate : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">77,78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7759982906236373159" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Delivery speed<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;speedValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().speed : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Delivery speed<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;speedValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().speed : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Скорость доставки<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;speedValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().speed : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Yetkazib berish tezligi<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span id=&quot;speedValue&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ calculationResult() ? calculationResult().speed : &apos;—&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">78,79</context>
@@ -333,7 +333,7 @@
       </trans-unit>
       <trans-unit id="5669320719855617308" datatype="html">
         <source>Итого</source>
-        <target>Total</target>
+        <target>Jami</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">81,82</context>
@@ -341,7 +341,7 @@
       </trans-unit>
       <trans-unit id="6204065670847243062" datatype="html">
         <source>Контакты</source>
-        <target>Contact information</target>
+        <target>Aloqalar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">90,91</context>
@@ -357,7 +357,7 @@
       </trans-unit>
       <trans-unit id="2983928632469814991" datatype="html">
         <source>Ваш телефон</source>
-        <target>Your phone</target>
+        <target>Ismingiz</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">96</context>
@@ -365,7 +365,7 @@
       </trans-unit>
       <trans-unit id="2447385172971685586" datatype="html">
         <source>Телефон должен состоять только из цифр</source>
-        <target>The phone number should consist only of numbers</target>
+        <target>Telefon faqat raqamlardan iborat bo‘lishi kerak</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">100,101</context>
@@ -373,7 +373,7 @@
       </trans-unit>
       <trans-unit id="7987049213205932209" datatype="html">
         <source>Заполните имя</source>
-        <target>Fill in your name</target>
+        <target>Ismni kiriting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">100,101</context>
@@ -381,7 +381,7 @@
       </trans-unit>
       <trans-unit id="4203012751272500381" datatype="html">
         <source>Заполните телефон</source>
-        <target>Fill in your phone</target>
+        <target>Telefonni kiriting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">105,106</context>
@@ -389,7 +389,7 @@
       </trans-unit>
       <trans-unit id="88220540467631414" datatype="html">
         <source>Дополнительная информация</source>
-        <target>Additional information</target>
+        <target>Qo‘shimcha ma’lumot</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">111,112</context>
@@ -397,7 +397,7 @@
       </trans-unit>
       <trans-unit id="1534549884585385492" datatype="html">
         <source>Детали доставки и комментарии</source>
-        <target>Delivery details and comments</target>
+        <target>Yetkazib berish tafsilotlari va fikrlar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">113</context>
@@ -405,7 +405,7 @@
       </trans-unit>
       <trans-unit id="5867452585680176606" datatype="html">
         <source>Отправить заявку </source>
-        <target>Send request</target>
+        <target>Ariza yuborish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">116,117</context>
@@ -413,7 +413,7 @@
       </trans-unit>
       <trans-unit id="6537368775846414054" datatype="html">
         <source>Заявка отправлена!</source>
-        <target>Request sent!</target>
+        <target>Ariza yuborildi!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">123,124</context>
@@ -421,7 +421,7 @@
       </trans-unit>
       <trans-unit id="4742041772701002606" datatype="html">
         <source>Номер отправления – <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span id=&quot;orderId&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ orderId() }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Shipment number – <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span id=&quot;orderId&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ orderId() }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <target>Jo‘natish raqami - <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span id=&quot;orderId&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ orderId() }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">124,125</context>
@@ -429,7 +429,7 @@
       </trans-unit>
       <trans-unit id="6146853329897452264" datatype="html">
         <source>Мы скоро свяжемся с вами</source>
-        <target>We'll contact you soon</target>
+        <target>Tez orada siz bilan bog‘lanamiz</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.html</context>
           <context context-type="linenumber">125,126</context>
@@ -445,7 +445,7 @@
       </trans-unit>
       <trans-unit id="4680714743020626956" datatype="html">
         <source><x id="PH" equiv-text="duration"/> дн.</source>
-        <target><x id="PH" equiv-text="duration"/> days</target>
+        <target><x id="PH" equiv-text="duration"/> kun</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.ts</context>
           <context context-type="linenumber">137</context>
@@ -461,7 +461,7 @@
       </trans-unit>
       <trans-unit id="7521619873340988006" datatype="html">
         <source>Не удалось построить маршрут. Проверьте адреса и выбранные параметры.</source>
-        <target>Failed to build the route. Please check the addresses and selected parameters.</target>
+        <target>Marshrut tuzilmadi. Manzillar va tanlangan parametrlarni tekshiring.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.ts</context>
           <context context-type="linenumber">152</context>
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="7085936743791506717" datatype="html">
         <source>Сначала рассчитайте стоимость, чтобы оформить заявку</source>
-        <target>First calculate the cost to submit an application</target>
+        <target>Avval arizani rasmiylashtirish uchun narxni hisoblang</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.ts</context>
           <context context-type="linenumber">158</context>
@@ -477,7 +477,7 @@
       </trans-unit>
       <trans-unit id="3043998260779357484" datatype="html">
         <source>Введите имя и корректный телефон</source>
-        <target>Enter your name and a valid phone number</target>
+        <target>Ism va bexato telefon raqamini kiriting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.ts</context>
           <context context-type="linenumber">163</context>
@@ -485,7 +485,7 @@
       </trans-unit>
       <trans-unit id="8604526372176902059" datatype="html">
         <source>Заявка успешно оформлена!</source>
-        <target>Application submitted successfully!</target>
+        <target>Ariza muvaffaqiyatli topshirildi!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/order/order.ts</context>
           <context context-type="linenumber">184</context>
@@ -493,7 +493,7 @@
       </trans-unit>
       <trans-unit id="trackNumberPlaceholder" datatype="html">
         <source>Введите номер посылки</source>
-        <target>Enter the package number</target>
+        <target>Jo‘natma raqamini kiriting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.html</context>
           <context context-type="linenumber">8</context>
@@ -501,7 +501,7 @@
       </trans-unit>
       <trans-unit id="8228969789040069142" datatype="html">
         <source>Отследить</source>
-        <target>Track</target>
+        <target>Kuzatish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.html</context>
           <context context-type="linenumber">10,11</context>
@@ -509,7 +509,7 @@
       </trans-unit>
       <trans-unit id="6980936577690358097" datatype="html">
         <source> Откуда: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.from }}"/> </source>
-        <target> From: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.from }}"/> </target>
+        <target> Qayerdan: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.from }}"/> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.html</context>
           <context context-type="linenumber">29,30</context>
@@ -517,7 +517,7 @@
       </trans-unit>
       <trans-unit id="3238611522226082066" datatype="html">
         <source> Куда: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.to }}"/> </source>
-        <target> To: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.to }}"/> </target>
+        <target> Qayerga: <x id="INTERPOLATION" equiv-text="{{ trackResult()?.route.to }}"/> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.html</context>
           <context context-type="linenumber">50,51</context>
@@ -525,7 +525,7 @@
       </trans-unit>
       <trans-unit id="2284008215345945290" datatype="html">
         <source>Не найдено</source>
-        <target>Not found</target>
+        <target>Topilmadi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.ts</context>
           <context context-type="linenumber">22</context>
@@ -533,7 +533,7 @@
       </trans-unit>
       <trans-unit id="6327862620148052786" datatype="html">
         <source>Статус данной посылки:</source>
-        <target>Status of this package:</target>
+        <target>Ushbu jo‘natmaning holati:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.html</context>
           <context context-type="linenumber">56,57</context>
@@ -541,7 +541,7 @@
       </trans-unit>
       <trans-unit id="1106698993081294050" datatype="html">
         <source>Заполните номер отправления</source>
-        <target>Fill in the shipment number</target>
+        <target>Jo‘natish raqamini to‘ldiring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.ts</context>
           <context context-type="linenumber">25</context>
@@ -549,7 +549,7 @@
       </trans-unit>
       <trans-unit id="5355141185274784149" datatype="html">
         <source>Введите корректный номер отправления</source>
-        <target>Enter a valid shipment number</target>
+        <target>Yuborish raqamini bexato kiriting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.ts</context>
           <context context-type="linenumber">32</context>
@@ -557,7 +557,7 @@
       </trans-unit>
       <trans-unit id="7584631622732746405" datatype="html">
         <source>Информация о заявке получена!</source>
-        <target>Application information received!</target>
+        <target>Ariza haqida ma’lumot olindi!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/track/track.ts</context>
           <context context-type="linenumber">42</context>

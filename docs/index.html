@@ -8,9 +8,9 @@
       // 1. Пытаемся взять сохраненный язык из localStorage
       // 2. Если нет — берем язык браузера
       // 3. Если ничего не подошло — ставим 'ru' по умолчанию
-      var lang = localStorage.getItem('userLanguage') || 
-                 navigator.language || 
-                 navigator.userLanguage || 
+      var lang = localStorage.getItem('userLanguage') ||
+                 navigator.language ||
+                 navigator.userLanguage ||
                  'ru';
 
       if (lang.startsWith('en')) {
@@ -24,7 +24,7 @@
   </head>
   <body>
     <noscript>
-      <a href="./uz/">O'zbek versiya</a><br>
+      <a href="./uz/">O‘zbekcha versiyasi</a><br>
       <a href="./ru/">Русская версия</a><br>
       <a href="./en/">English version</a>
     </noscript>

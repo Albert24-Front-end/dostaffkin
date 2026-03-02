@@ -40,9 +40,9 @@
 .arrow.open {
     transform: rotate(180deg);
 }
-
+/* CSS стили больше не нужны контроля состояния, control flow - логикой отображения, состоянием DOM-блока .dropdown-content управляет Angular (@if) */
 .dropdown-content {
-    display: none;
+    /* display: none; */
     position: absolute;
     background-color: white;
     min-width: 100%;
@@ -54,9 +54,9 @@
     border: 1px solid #eee;
 }
 
-.dropdown-content.show {
+/* .dropdown-content.show {
     display: block;
-}
+} */
 
 .lang-item {
     padding: 10px 12px;
